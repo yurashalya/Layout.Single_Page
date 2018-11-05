@@ -19,9 +19,7 @@ body {
     letter-spacing: 0.06em;
 }
 
-div, p, span, a, input, button {
-    box-sizing: border-box;
-}
+
 
 p {
     line-height: 1.7em;
@@ -38,14 +36,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.25em;
 }
 
-h2 {
-    letter-spacing: 0.04em;
-    margin: 0;
-}
-
-h3 {
-    letter-spacing: 0.03em;
-}
 
 .container {
     margin: 0 7%;
@@ -57,7 +47,6 @@ h3 {
     font-size: 20px;
     color: #fff;
     background: transparent;
-    border: 3px solid #fff;
     cursor: pointer;
     padding: 17px 0;
     width: 217px;
@@ -108,7 +97,6 @@ h3 {
     color: #0304b9;
     height: 184px;
     width: 41px;
-    padding: 10px 15px;
     position: absolute;
     left: 61%;
     top: 0;
@@ -134,9 +122,6 @@ h3 {
 
 }
 
-.hamburger span:nth-child(1) {
-
-}
 
 .hamburger span:nth-child(2) {
     width: 75%;
@@ -220,10 +205,7 @@ h3 {
 .scroll {
     display: block;
     font-size: 22px;
-    border-right: 3px solid #fff;
     height: 135px;
-    padding-right: 40px;
-    padding-top: 20px;
     color: #fff;
     width: 100px;
     text-decoration: none;
@@ -244,10 +226,6 @@ h3 {
     padding-bottom: 180px;
 }
 
-.section-title {
-
-}
-
 .section-title__intro {
     font-family: 'Jaapokkisubtract', sans-serif;
     color: #a8a8e4;
@@ -259,6 +237,8 @@ h3 {
     font-size: 85px;
     margin-left: 50px;
     position: relative;
+    letter-spacing: 0.04em;
+    margin: 0;
 }
 
 .section-title__title:after {
@@ -278,9 +258,7 @@ h3 {
 
 .service__item {
     width: 20%;
-    border: 4px solid #0001c5;
     display: block;
-    padding-left: 53px;
     padding-top: 60px;
     padding-bottom: 120px;
     position: relative;
@@ -294,6 +272,7 @@ h3 {
 
 .service__title {
     font-size: 26px;
+    letter-spacing: 0.03em;
 }
 
 .service__more {
@@ -348,9 +327,7 @@ h3 {
 
 .credits__btn {
     color: #0001c5;
-    bottom: 3px solid #0001c5;
     font-size: 17px;
-    padding: 13px 0;
     width: 172px;
 
 }
